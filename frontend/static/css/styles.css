@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #555454;
+  background-color: #3f3e3e;
   padding: 15px;
 }
 
@@ -68,12 +68,18 @@ p{
   border: none;
   cursor: pointer;
   font-size: 18px;
+  border-radius: 5px;
+  background-color: blue;
+  margin: 20px;
+  padding: 10px;
 }
 
 
 .dropbtn:hover {
-  background-color: #630f26;
+  background: rgb(47, 117, 209);
+  
 }
+
 
 .dropdown {
   position: relative;
@@ -136,4 +142,7 @@ h1 {
   object-fit: cover;
   z-index: -1;
   opacity: 0.5;
+}
+a{
+  text-decoration: none;
 }
