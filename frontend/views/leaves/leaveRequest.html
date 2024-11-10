@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Request</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 id="welcomeMessage"></h2>
+            <button id="logoutButton" class="btn-logout">Logout</button>
+        </div>
+        
+        <div class="content">
+            <div class="form-section">
+                <h2>Submit Leave Request</h2>
+                <form id="leaveRequestForm" class="form">
+                    <div class="form-group">
+                        <label for="reason">Reason for Leave</label>
+                        <input type="text" id="reason" name="reason" required placeholder="Enter your leave reason">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dateFrom">Start Date</label>
+                        <input type="date" id="dateFrom" name="dateFrom" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="numOfDays">Number of Days</label>
+                        <input type="number" id="numOfDays" name="numOfDays" required min="1">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="applicationDate">Application Date</label>
+                        <input type="date" id="applicationDate" name="applicationDate" required>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit Request</button>
+                </form>
+            </div>
+
+            <h2>Your Leave Requests</h2>
+            <div id="leaveRequests" class="leave-list"></div>
+        </div>
+    </div>
+
+    <script src="leaveRequest.js"></script>
+</body>
+
+</html>
