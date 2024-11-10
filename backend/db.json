@@ -1,6 +1,40 @@
 {
-  "employees": [],
-  "users": [],
+  "employees": [
+    {
+      "id": "EMP_VDjvW",
+      "employeeId": "EMP_VDjvW",
+      "nic": "67547546734v",
+      "firstName": "Nelson",
+      "lastName": "mandela",
+      "dob": "2024-11-08",
+      "doj": "2024-11-26"
+    },
+    {
+      "id": "EMP_sPLum",
+      "employeeId": "EMP_sPLum",
+      "nic": "723451278V",
+      "firstName": "vithu",
+      "lastName": "shan",
+      "dob": "2004-06-08",
+      "doj": "2023-06-06"
+    }
+  ],
+  "users": [
+    {
+      "id": "EMP_VDjvW",
+      "employeeId": "EMP_VDjvW",
+      "username": "EMP_VDjvW",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "username": "EMP_sPLum",
+      "password": "pwd123",
+      "role": "Manager",
+      "employeeId": "EMP_sPLum",
+      "id": "EMP_sPLum"
+    }
+  ],
   "leaveRequests": [
     {
       "id": "a4a4",
